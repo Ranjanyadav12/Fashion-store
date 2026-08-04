@@ -1,0 +1,118 @@
+.footer {
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #e5e5e5;
+  padding: 60px 7% 25px;
+  font-family: sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr 1.5fr;
+  gap: 45px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.logo-icon {
+  font-size: 28px;
+}
+
+.logo h2 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+.logo-col p {
+  color: #666;
+  font-size: 13px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+}
+
+.socials svg {
+  font-size: 16px;
+  cursor: pointer;
+  color: #222;
+}
+
+.footer-col h4 {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 11px;
+  color: #666;
+  font-size: 13px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.footer-col ul li:hover {
+  color: #000;
+}
+
+.footer-bottom {
+  margin-top: 45px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  color: #777;
+}
+
+.payments {
+  display: flex;
+  gap: 14px;
+}
+
+.payments svg {
+  font-size: 28px;
+  color: #444;
+}
+
+@media (max-width:992px) {
+
+  .footer-container {
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+  }
+
+}
+
+@media (max-width:600px) {
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+}

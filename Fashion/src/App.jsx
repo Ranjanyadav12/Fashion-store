@@ -3,6 +3,7 @@ import Nav from './Components/Nav/Nav'
 import Hero from './Components/Hero/Hero'
 import ShopbyCategory from './Components/Shopbycategory/Shopbycategory'
 import NewArrivals from './Components/NewArrivals/NewArrivals'
+import Footer from './Components/Footer/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -12,6 +13,7 @@ function App() {
      <Hero/>
      <ShopbyCategory/>
      <NewArrivals/>
+     <Footer/>
     </>
   )
 }
