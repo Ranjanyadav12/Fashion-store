@@ -53,7 +53,7 @@ function NewArrivals() {
   return (
     <section className="arrivals">
       <div className="arrivals-header">
-        <h2>NEW ARRIVALS</h2>
+        <h3>NEW ARRIVALS</h3>
 
         <button className="view-btn">
           View All <FiArrowRight />

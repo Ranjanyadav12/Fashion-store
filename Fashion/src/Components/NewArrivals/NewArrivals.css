@@ -1,6 +1,7 @@
 .arrivals {
   width: 92%;
   margin: 60px auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .arrivals-header {
@@ -10,10 +11,11 @@
   margin-bottom: 30px;
 }
 
-.arrivals-header h2 {
-  font-size: 14px;
-  letter-spacing: 2px;
+.arrivals-header h3 {
+  font-size: 22px;
   font-weight: 700;
+  letter-spacing: 1px;
+  color: #222;
 }
 
 .view-btn {
