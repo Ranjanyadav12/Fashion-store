@@ -3,7 +3,8 @@
   background: #fff;
   border-top: 1px solid #e5e5e5;
   padding: 60px 7% 25px;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer-container {
